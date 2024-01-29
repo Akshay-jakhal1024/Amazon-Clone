@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 60px;
+  background-color: #16202c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 61px;
+  width: 130px;
+}
+.logo {
+  background-image: url(img/amazon-logo-transparent.png);
+  height: 33px;
+  width: 100%;
+  background-size: cover;
+}
+
+.border {
+  border: 1px solid transparent;
+  padding: 10px 8px;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+/* box 2 */
+
+.add-f {
+  color: #cccccc;
+  font-size: 0.75rem;
+  margin-left: 32px;
+}
+.add-s {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.add-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-address {
+  padding: 10px 5px;
+}
+
+/* box 3  */
+.nav-search {
+  display: flex;
+  width: 55%;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+}
+.search-select {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  background-color: #cecece;
+  width: 60px;
+  outline: none;
+}
+.search-input {
+  width: 90%;
+  outline: none;
+  font-size: 1rem;
+}
+.search-icon {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 5px;
+  width: 3rem;
+  background-color: #ecae5c;
+  color: black;
+}
+
+.nav-search:hover {
+  border: 2px solid rgb(255, 166, 0);
+}
+
+/* box 4 */
+span {
+  font-size: 0.75rem;
+}
+
+.nav-signin-s {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-weight: 700;
+}
+/* box 7 */
+
+.border-1 {
+  border: 1px solid transparent;
+  padding: 9px 5px;
+}
+.border-1:hover {
+  border: 1px solid white;
+}
+
+.panel {
+  color: white;
+  height: 40px;
+  font-weight: 600;
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops p {
+  display: inline;
+  margin-left: 2px;
+}
+.panel-ops {
+  width: 80%;
+  font-size: 0.85rem;
+}
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* Section part */
+
+.hero-section {
+  background-image: url("img/image1.jpg");
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  font-size: 0.85rem;
+  background: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-bottom: 2rem;
+}
+
+.hero-msg a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* Shop section */
+
+.shop-section {
+  background: #e2e7e6;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 30px;
+}
+.box {
+  background: white;
+  height: 45vh auto;
+  max-width: 120%;
+  padding: 20px 0 15px;
+}
+.box-img {
+  height: 250px;
+  background-size: cover;
+  margin: 2rem 0;
+}
+.box-content {
+  margin: 0 20px;
+}
+
+/* footer section starts here  */
+
+.foot-panel {
+  background: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
+.foot-panel:hover {
+  background: #37475af1;
+}
+
+.foot-list {
+  background: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50vh;
+}
+.foot-list ul {
+  margin-top: 3rem;
+}
+ul p {
+  font-weight: 600;
+}
+.foot-list ul a {
+  color: #dddddd;
+  display: block;
+  font-size: 0.85rem;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.foot-end {
+  background: #222f3d;
+  color: white;
+  border-top: 1px solid rgb(117, 116, 116);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-logo {
+  background-image: url(img/amazon-logo-transparent.png);
+  background-size: cover;
+  height: 30px;
+  width: 100px;
+}
+
+.foot-cpright {
+  background: #16202c;
+  color: white;
+}
+.pages {
+  padding-top: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 5px;
+}
